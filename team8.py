@@ -31,7 +31,7 @@ def move(my_history, their_history, my_score, their_score):
         elif their_history[len(their_history)-3:len(their_history)].upper() == 'BBC':
             return 'c'
         elif their_history[len(their_history)-3:len(their_history)].upper() == 'CCC':
-            return 'c'
+            return 'b'
         elif their_history[len(their_history)-3:len(their_history)].upper() == 'BBB':
             return 'b'
     elif their_history[-1:].upper() != 'C':
